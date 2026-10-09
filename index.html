@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bénédictions des Repas</title>
+    <!-- Balises pour le partage -->
+    <meta property="og:title" content="Bénédictions des Repas">
+    <meta property="og:description" content="Découvrez une belle prière pour bénir votre repas, le midi comme le soir, ou pour les jours de fête.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://VOTRE-PSEUDO.github.io/VOTRE-PROJET/image-partage.png">
+    <meta property="og:url" content="https://VOTRE-PSEUDO.github.io/VOTRE-PROJET/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bénédictions des Repas">
+    <meta name="twitter:description" content="Découvrez une belle prière pour bénir votre repas, le midi comme le soir, ou pour les jours de fête.">
+    <meta name="twitter:image" content="https://VOTRE-PSEUDO.github.io/VOTRE-PROJET/image-partage.png">
+    
+    <!-- Favicons -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🙏</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🙏</text></svg>">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <button id="menu-btn" class="icon-btn"><i class="fas fa-bars"></i></button>
+        <h1 data-i18n="title">Bénédictions</h1>
+        <div style="width: 32px;"></div>
+    </nav>
+
+    <div id="side-menu" class="side-menu">
+        <div class="menu-header">
+            <h2 data-i18n="menuTitle">Menu</h2>
+            <button id="close-menu-btn" class="icon-btn"><i class="fas fa-times"></i></button>
+        </div>
+
+        <div class="menu-section">
+            <h3 data-i18n="langTitle">🌍 Langue / Language</h3>
+            <select id="lang-select" class="custom-select">
+                <option value="fr">Français</option>
+                <option value="en">English</option>
+                <option value="vi">Tiếng Việt</option>
+            </select>
+        </div>
+        
+        <div class="menu-section">
+            <h3 data-i18n="festivalsTitle">🎊 Jours de fête</h3>
+            <p class="menu-desc" data-i18n="festivalsDesc">Remplace les prières habituelles par celles des fêtes.</p>
+            <select id="fete-select" class="custom-select">
+                <option value="" data-i18n="normalDay">-- Jour normal --</option>
+                <option value="Noël 1">Noël (1)</option>
+                <option value="Noël 2">Noël (2)</option>
+                <option value="Jeudi-Saint">Jeudi-Saint</option>
+                <option value="Vendredi-Saint 1">Vendredi-Saint (1)</option>
+                <option value="Vendredi-Saint 2">Vendredi-Saint (2)</option>
+                <option value="Samedi-Saint">Samedi-Saint</option>
+                <option value="Pâques 1">Pâques / Easter (1)</option>
+                <option value="Pâques 2">Pâques / Easter (2)</option>
+                <option value="Pentecôte 1">Pentecôte / Pentecost (1)</option>
+                <option value="Pentecôte 2">Pentecôte / Pentecost (2)</option>
+            </select>
+        </div>
+
+        <div class="menu-section">
+            <h3 data-i18n="favTitle">❤️ Favoris</h3>
+            <ul id="favorites-list" class="favorites-list"></ul>
+        </div>
+
+        <div class="menu-footer">
+            <p><span data-i18n="designedBy">CONÇU ET DÉVELOPPÉ PAR</span> <span class="bpm-text">BPM</span> © 2026</p>
+        </div>
+    </div>
+
+    <div id="overlay" class="overlay"></div>
+
+    <main class="container">
+        <div class="image-wrapper">
+            <img id="main-image" src="" alt="Bénédiction du repas" class="sticker-img">
+            <p class="click-hint" data-i18n="clickHint">Cliquez sur l'image</p>
+        </div>
+
+        <div id="prayer-container" class="prayer-container hidden">
+            <div class="prayer-card">
+                <p id="prayer-text"></p>
+                <button id="fav-btn" class="fav-btn"><i class="far fa-heart"></i></button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
