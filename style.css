@@ -64,7 +64,7 @@ body {
 
 /* Modification du sticker : Plus grand, sans fond, avec ombre portée épousant les contours */
 .sticker-img {
-    width: 320px; 
+    width: 350px; 
     max-width: 95vw; 
     cursor: pointer;
     /* Ombre bien visible par défaut */
