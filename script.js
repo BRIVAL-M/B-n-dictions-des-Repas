@@ -269,9 +269,9 @@ function updateUITranslations() {
 function definirImageSelonHeure() {
     const heure = new Date().getHours();
     if (heure < 18) {
-        mainImage.src = "bénédiction du déjeuner.png";
+        mainImage.src = "img dejeuner.png";
     } else {
-        mainImage.src = "Bénédiction du souper.png";
+        mainImage.src = "img souper.png";
     }
 }
 
