@@ -271,7 +271,7 @@ function definirImageSelonHeure() {
     if (heure < 18) {
         mainImage.src = "bénédiction du déjeuner.png";
     } else {
-        mainImage.src = "bénédiction du souper.png";
+        mainImage.src = "Bénédiction du souper.png";
     }
 }
 
@@ -376,4 +376,4 @@ function fermerMenu() {
     overlay.classList.remove('show');
 }
 
-/// Maj---1
+/// Maj---1.1
