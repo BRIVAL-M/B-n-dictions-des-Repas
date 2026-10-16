@@ -375,3 +375,5 @@ function fermerMenu() {
     sideMenu.classList.remove('open');
     overlay.classList.remove('show');
 }
+
+/// Maj---1
