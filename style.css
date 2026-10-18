@@ -57,6 +57,15 @@ body {
     outline: none;
 }
 
+img {
+  /* Empêche la sélection de texte/image sur mobile et desktop */
+  -webkit-user-select: none; /* Safari / Chrome mobile */
+  user-select: none;         /* Standard */
+  
+  /* Empêche le menu contextuel natif de "copier l'image" ou "enregistrer" au long appui (optionnel) */
+  -webkit-touch-callout: none; 
+} 
+
 .image-wrapper {
     margin-top: 20px;
     text-align: center;

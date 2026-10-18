@@ -1,4 +1,5 @@
 // Dictionnaire des traductions de l'interface
+// Dictionnaire des traductions de l'interface
 const uiTranslations = {
     fr: {
         title: "Bénédictions",
@@ -10,7 +11,9 @@ const uiTranslations = {
         favTitle: "❤️ Favoris",
         clickHint: "Cliquez sur l'image",
         noFavs: "Aucun favori pour le moment.",
-        designedBy: "CONÇU ET DÉVELOPPÉ PAR"
+        designedBy: "CONÇU ET DÉVELOPPÉ PAR",
+        infoTitle: "ℹ️ À propos",
+        infoDesc: "Ces prières sont extraites du livre de prières des moines de l'abbaye de Saint-Wandrille."
     },
     en: {
         title: "Blessings",
@@ -22,7 +25,9 @@ const uiTranslations = {
         favTitle: "❤️ Favorites",
         clickHint: "Click on the image",
         noFavs: "No favorites yet.",
-        designedBy: "DESIGNED AND DEVELOPED BY"
+        designedBy: "DESIGNED AND DEVELOPED BY",
+        infoTitle: "ℹ️ About",
+        infoDesc: "These prayers are taken from the prayer book of the monks of Saint-Wandrille Abbey."
     },
     vi: {
         title: "Cầu Nguyện",
@@ -34,7 +39,9 @@ const uiTranslations = {
         favTitle: "❤️ Yêu thích",
         clickHint: "Nhấn vào hình ảnh",
         noFavs: "Chưa có mục yêu thích.",
-        designedBy: "THIẾT KẾ VÀ PHÁT TRIỂN BỞI"
+        designedBy: "THIẾT KẾ VÀ PHÁT TRIỂN BỞI",
+        infoTitle: "ℹ️ Giới thiệu",
+        infoDesc: "Những lời cầu nguyện này được trích từ sách cầu nguyện của các đan sĩ tu viện Saint-Wandrille."
     }
 };
 
